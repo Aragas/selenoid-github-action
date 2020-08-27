@@ -9,5 +9,5 @@ jobs:
     - run: npm ci    
     - name: start selenoid
       uses: ./
-    - name: is selenoid started?
+    - name: is selenoid started
       run: curl http://localhost:4444/status
